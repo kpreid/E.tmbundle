@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:...}(${2:...})${3: :${4:...}}${5: implements ${6:...}} {${7: ${0:...} }}</string>
+	<key>name</key>
+	<string>def Function</string>
+	<key>scope</key>
+	<string>source.e</string>
+	<key>tabTrigger</key>
+	<string>deff</string>
+	<key>uuid</key>
+	<string>A76F1A98-EBDF-47BA-B93E-A31616D01241</string>
+</dict>
+</plist>

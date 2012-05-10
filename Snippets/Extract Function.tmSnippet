@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:f}(${2:...}) { 
+${TM_SELECTED_TEXT/^/	/g}
+}
+
+$1($2)</string>
+	<key>keyEquivalent</key>
+	<string>@X</string>
+	<key>name</key>
+	<string>Extract Function</string>
+	<key>scope</key>
+	<string>source.e, source.e meta.expr</string>
+	<key>uuid</key>
+	<string>B8245B6B-9CD8-4148-92E7-F581BACE4144</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Updoc Answer Type</string>
+	<key>scope</key>
+	<string>meta.step.answer-type.updoc</string>
+	<key>settings</key>
+	<dict>
+		<key>completions</key>
+		<array>
+			<string>value</string>
+			<string>problem</string>
+			<string>syntax error</string>
+			<string>stdout</string>
+			<string>stderr</string>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>D11258BE-062B-4598-815E-51BBB9D82CE9</string>
+</dict>
+</plist>

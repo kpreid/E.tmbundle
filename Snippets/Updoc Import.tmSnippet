@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>? def ${1:makeFoo} := &lt;import:${2:org.erights.}$1&gt;
+# value: &lt;$1&gt;</string>
+	<key>name</key>
+	<string>Updoc Import</string>
+	<key>scope</key>
+	<string>source.updoc source.e</string>
+	<key>tabTrigger</key>
+	<string>? import</string>
+	<key>uuid</key>
+	<string>9AA77B79-D81F-4597-A4CC-8E16A42F1D2C</string>
+</dict>
+</plist>

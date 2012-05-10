@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>method ${1:verb}(${2:...}) {${3: ${0:...} }}</string>
+	<key>name</key>
+	<string>method</string>
+	<key>scope</key>
+	<string>meta.methods.e</string>
+	<key>tabTrigger</key>
+	<string>method</string>
+	<key>uuid</key>
+	<string>A8C9F924-1AEC-40B6-AFFD-2CB96C95A5D1</string>
+</dict>
+</plist>

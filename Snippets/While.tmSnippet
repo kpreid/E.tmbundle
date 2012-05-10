@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>while (${1:condition}) {
+	${0:${TM_SELECTED_TEXT:...}}
+}</string>
+	<key>name</key>
+	<string>while</string>
+	<key>scope</key>
+	<string>source.e</string>
+	<key>tabTrigger</key>
+	<string>while</string>
+	<key>uuid</key>
+	<string>58D69464-684A-4C12-B1AB-3FF12B68B325</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>switch (${1:${TM_SELECTED_TEXT:specimen}}) {
+	match$0
+}</string>
+	<key>name</key>
+	<string>switch</string>
+	<key>scope</key>
+	<string>source.e</string>
+	<key>tabTrigger</key>
+	<string>switch</string>
+	<key>uuid</key>
+	<string>73EE354B-21CE-4760-8DE3-D96DAB141B8A</string>
+</dict>
+</plist>

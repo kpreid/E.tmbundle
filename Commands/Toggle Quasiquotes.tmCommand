@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+# Derived from the single/double toggle in the Source bundle
+
+# Doesn't actually work.
+
+# TODO: convert escapings
+
+print case str = STDIN.read
+  when /\A"(.*)"\z/m; "`" + $1 + "`"
+  when /\A`(.*)`\z/m; '"' + $1 + '"'
+  else str
+end
+</string>
+	<key>fallbackInput</key>
+	<string>scope</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^"</string>
+	<key>name</key>
+	<string>Toggle Quasiquotes</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>string.quoted.double.e, source.e string.quasi</string>
+	<key>uuid</key>
+	<string>1B49DB46-9891-473F-9C7B-C7FEAE826109</string>
+</dict>
+</plist>

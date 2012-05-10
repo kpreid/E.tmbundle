@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>updoc</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~E</string>
+	<key>name</key>
+	<string>Updoc</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>^\s*(#)\s*([^ ]+:)\s</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.step.answer.updoc</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>meta.step.answer-type.updoc</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>string.answer.updoc</string>
+			<key>end</key>
+			<string>^(?![ \t]*#)</string>
+			<key>name</key>
+			<string>meta.step.answer.updoc</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^\s*(\?)\s*</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.step.input.updoc</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>source.e</string>
+			<key>end</key>
+			<string>^(?![ \t]*&gt;)</string>
+			<key>name</key>
+			<string>meta.step.input.updoc</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.e</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.updoc</string>
+	<key>uuid</key>
+	<string>033DA73E-CC8B-49C7-BB6C-76196B3CE364</string>
+</dict>
+</plist>

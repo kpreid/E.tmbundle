@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+# `perl -e '$ENV{TM_CURRENT_LINE}=~/^\s*# ((?:[a-z]+: )?\s*).*/; print " " x length $1'`$0</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Continue Updoc Answer</string>
+	<key>scope</key>
+	<string>meta.step.answer.updoc</string>
+	<key>uuid</key>
+	<string>968BA3B5-4335-4D11-A41E-8AEE22AA2D98</string>
+</dict>
+</plist>

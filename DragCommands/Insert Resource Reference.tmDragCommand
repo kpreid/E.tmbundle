@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/perl
+
+$_ = "";
+my $i = 1;
+for my $part (split '/', substr $ENV{TM_DROPPED_FILEPATH}, 1) {
+  $part =~ s/[\$`]/\\$1/g;
+  $_ = "\${$i:$_$part/}";
+  $i++;
+}
+s#/}$#}#;
+print "&lt;resource:$_&gt;"</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>*</string>
+		<string>e</string>
+		<string>e-awt</string>
+		<string>e-swt</string>
+		<string>eexpr</string>
+		<string>emaker</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Insert Resource Reference</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.e, source.e meta.expr</string>
+	<key>uuid</key>
+	<string>CD60DBC6-EB63-45DB-ABD0-CFA0D7D08311</string>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+# modified from HTML bundle's "URL Escape Line / Selection"
+# TODO: use an existing library
+print "&lt;file://"
+print ENV['TM_DROPPED_FILEPATH'].gsub(/([^\/a-zA-Z0-9_.-]+)/n) {
+  '%' + $1.unpack('H2' * $1.size).join('%').upcase
+}
+print "&gt;"</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>*</string>
+		<string>e</string>
+		<string>e-awt</string>
+		<string>e-swt</string>
+		<string>eexpr</string>
+		<string>emaker</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Insert File Reference</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.e, source.e meta.expr</string>
+	<key>uuid</key>
+	<string>FAD775C8-A9F9-4EF4-A04A-53B93CF223E8</string>
+</dict>
+</plist>

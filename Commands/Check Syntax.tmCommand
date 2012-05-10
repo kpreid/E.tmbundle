@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>~/Desktop/pipetest/rune1.sh 'e__quasiParser(&lt;file&gt;["'"$TM_FILEPATH"'"].getTwine()); "OK"'
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^V</string>
+	<key>name</key>
+	<string>Check Syntax [broken experiment]</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.e</string>
+	<key>uuid</key>
+	<string>665FA598-DA14-41D7-9ED8-E2B0F6AD9FA0</string>
+</dict>
+</plist>

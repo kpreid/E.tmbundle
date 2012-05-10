@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indentation Rules</string>
+	<key>scope</key>
+	<string>source.e</string>
+	<key>settings</key>
+	<dict>
+		<key>comment</key>
+		<string>copied from JavaScript bundle</string>
+		<key>decreaseIndentPattern</key>
+		<string>^(.*\*/)?\s*(\}|\))([^{]*\{)?([;,]?\s*|\.[^{]*|\s*\)[;\s]*)$</string>
+		<key>increaseIndentPattern</key>
+		<string>^.*(\{[^}"']*|\([^)"']*)$</string>
+	</dict>
+	<key>uuid</key>
+	<string>4C4858DA-B9E7-443A-B57B-AC54A4EA8575</string>
+</dict>
+</plist>

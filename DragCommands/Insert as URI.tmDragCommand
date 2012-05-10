@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo -n '&lt;'
+cat "$TM_DROPPED_FILE" | perl -pe 's/[\r\n]//g; s/([\$`])/\\$1/g'
+echo -n '&gt;'</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>cap</string>
+		<string>captp</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Insert as URI</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.e, source.e meta.expr</string>
+	<key>uuid</key>
+	<string>9FCF223F-1D91-4A27-A088-4A488B57D959</string>
+</dict>
+</plist>

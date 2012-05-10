@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>interface ${1/./\u$0/} guards ${1/./\u$0/}Stamp {}
+
+def make${1/./\u$0/}(${2:...}) {
+	return def ${1:foo}${3: extends ${4:...}}${5: implements ${6:${1/./\u$0/}Stamp}} {
+		to$0
+	}
+}</string>
+	<key>name</key>
+	<string>Maker</string>
+	<key>scope</key>
+	<string>source.e, source.e meta.expr</string>
+	<key>tabTrigger</key>
+	<string>def make</string>
+	<key>uuid</key>
+	<string>A1141FFE-7119-4431-9E81-35A360BA091E</string>
+</dict>
+</plist>
